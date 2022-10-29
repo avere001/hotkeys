@@ -9,10 +9,11 @@ def on_press(key):
     except AttributeError:
         k = key.name  # other keys
 
-    print(f"pressed {k=}")
     if k == 'page_up':
+        print("pressing e..")
         pyautogui.keyDown("e")
     elif k == 'pause':
+        print("holding right click..")
         pyautogui.mouseDown(button='right')
 
 
