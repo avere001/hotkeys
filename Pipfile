@@ -8,6 +8,8 @@ pyautogui = "*"
 pynput = "*"
 
 [dev-packages]
+black = "*"
+types-pynput = "*"
 
 [requires]
 python_version = "3.10"
