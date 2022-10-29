@@ -11,9 +11,11 @@ def on_press(key):
 
     if k == 'page_up':
         print("holding e..")
+        pyautogui.keyUp("e")
         pyautogui.keyDown("e")
     elif k == 'pause':
         print("holding right click..")
+        pyautogui.mouseUp(button='right')
         pyautogui.mouseDown(button='right')
 
 
